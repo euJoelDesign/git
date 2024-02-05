@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../imagens/photo-1557683316-973673baf926.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#homeInfo{
+    background-color: red;
+
+}
+#container{
+    background-color: #ececec;
+    width: 100%;
+}
+
+#campo-criptografia{
+    width: 60%; 
+    height: 600px; 
+    margin-top: 2%;
+}
+#caixa-mensagem{
+    width: 30%; 
+    height: 500px;
+}
+
+#infoHome{
+    text-align: center;
+    padding-top: 5%;
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 50%; 
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: solid #ffffff 2px;
+    border-radius: 30px;
+    
+}
+#logoPagina{
+    margin-top: -10%;
+}
+h3{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-top: 2%;
+
+}
+#caixa{
+    width: 80%; 
+    margin: auto;  
+    margin-top: 10%;
+}
+#exibe-mensagem{
+    text-align: center;
+    width: 80%; 
+    margin: auto;  
+    margin-top: 10%;
+    border: solid rgb(196, 196, 196) 1px;
+    border-radius: 10px;
+    height: 300px;
+}
+.copy{
+    width: 100%; 
+    margin: auto;  
+    margin-top: 1%;
+    border: solid rgb(196, 196, 196) 1px;
+    border-radius: 10px;
+    height: 295px;
+    background-color: none;
+}
+
+#copiar{
+    margin-top: 5%;
+    background: rgb(0, 162, 255);
+    color: #ececec; 
+}
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+#encriptografar, #descriptografar{
+    width: 300px;
+}
+#msg{
+    text-align: center;
+
+}
+
+.area-button{
+    margin-top: 5%;
+}

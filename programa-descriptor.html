@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+
+    <title>Descriptor</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/estilo.css">
+
+  </head>
+
+  <body style="margin: auto;">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+            <!-- Logo -->
+            <a href="" class="navbar-brand">Criptor 1.0</a>
+
+            <!-- Menu Hamburguer -->
+            <button class="navbar-toggler" data-toggle="collapse" 
+            data-target="#navegacao2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- navegacao -->
+            <div class="collapse navbar-collapse" id="navegacao2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link">Home</a>
+
+                    <li class="nav-item dropdown">
+                        <a href="" class="nav-link dropdown-toggle" 
+                        data-toggle="dropdown">Serviços</a>
+
+                        <div class="dropdown-menu">
+                            <a href="" class="dropdown-item">Serviço 1</a>
+                            <a href="" class="dropdown-item">Serviço 2</a>
+                            <a href="" class="dropdown-item">Serviço 3</a>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            <!-- Formulário -->
+                <form class="form-inline" >
+                    <input type="text" class="form-control" placeholder="pesquisar...">
+                    <button class="btn btn-outline-success">ok</button>
+                </form>
+            </div>
+        </div>
+     </nav>
+
+    <div class=" clearfix"  id="container">
+
+            <div id="divMain" >
+                <div class="form-group float-sm-left" id="campo-criptografia">
+                    <h1 class="text-info text-center">Vamos lá</h1>
+
+                    <div style=" width: 80%; margin: auto;">
+                        <div class="input">
+                            <textarea class="form-control" id="textCriptor" rows="15" placeholder="Digite o texto que você deseja criptografar ou descriptografar">
+                            </textarea>
+                        </div>
+
+                        <div  class="area-button">
+                            <button onclick="criptoText()" class="btn btn-info btn-lg " type="button" id="encriptografar">Encriptografar</button>
+                            <button  onclick="descriptoText(), limparCampo()" class="btn btn-outline-info btn-lg" type="button" id="descriptografar">Descriptografar</button> 
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <div class=" float-sm-right flots-sl-left bg-light " id="caixa-mensagem">
+                    <div id="caixa">
+                            
+                            
+                            <div id="exibe-mensagem">
+                                <h3 class="text-info text-center">Nenhuma mensagem a ser exibida</h3>
+                                <h7 class="text-center text-secondary">Seu texto será exibido aqui.</h7>
+                                <img src="imagens/tecnology.png" alt="imagem de tecnologias" width="80%">
+                            </div>
+                            <button disabled onclick="exibeMensage(), tempoMensage()" class="btn btn-outline-info btn-lg btn-block" type="button" id="copiar">Copiar</button>
+
+                            <div class="alert alert-success" role="alert" id="msg">
+                                <h6 id="p"></h6>
+                            </div>
+                    </div>
+                    </div>
+    
+                </div>
+            </div>
+
+
+    </div>
+    
+    <footer class="navbar footer-expand-sm footer-dark bg-dark text text-light ">
+      <span>         
+        <p>por: Joel Rodrigues de souza &copy;</p> 
+      </span> 
+    </footer>   
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/descriptor.js"></script>
+  </body>
+</html>
